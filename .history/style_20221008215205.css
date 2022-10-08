@@ -214,7 +214,6 @@ h6 {
 .common-sec {
     position: relative;
     z-index: 0;
-    overflow: hidden;
 }
 
 .common-sec:nth-child(even):before {
@@ -426,7 +425,7 @@ figure.img-box img+figcaption {
 
 a.more-btn {
     display: inline-block;
-    color: var(--main-color);
+    color: #000;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
@@ -442,36 +441,4 @@ a.more-btn:after {
 
 .common-box:hover a.more-btn {
     color: var(--tertiary-color);
-}
-
-/* Service Section */
-
-.service-sec .common-box {
-    border-radius: 0px;
-}
-
-.service-sec .common-box .box-title {
-    font-size: 22px;
-    font-weight: 500;
-}
-
-/* Why Choose Section */
-
-.why-choose-box .common-box {
-    box-shadow: none;
-    border-radius: 0px;
-    transition: all 0.5s ease;
-}
-
-.why-choose-box .common-box:hover {
-    background-color: var(--tertiary-color);
-    color: #000;
-    transition: all 0.5s ease;
-}
-
-.why-choose-box .common-box .box-title {
-    color: var(--main-color);
-    font-size: 22px;
-    font-weight: 500;
-    text-transform: uppercase;
 }

@@ -426,7 +426,7 @@ figure.img-box img+figcaption {
 
 a.more-btn {
     display: inline-block;
-    color: var(--main-color);
+    color: #000;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
