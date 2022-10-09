@@ -756,7 +756,6 @@ ul.pricing-features li:last-child {
 footer {
     background: #0B3742;
     padding: 40px 0px;
-    color: #C5C5C5;
 }
 
 .footer-social i {
@@ -772,12 +771,7 @@ ul.links {
 }
 
 ul.links li a {
-    color: #C5C5C5;
-    text-transform: uppercase;
-}
-
-ul.links li a:hover {
-    color: var(--main-color);
+    color: var(--tertiary-color);
     text-transform: uppercase;
 }
 
