@@ -207,8 +207,8 @@ h6 {
 
 .py-50,
 .common-sec {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .common-sec {
@@ -710,10 +710,4 @@ ul.pricing-features li:last-child {
 
 .form-holder input[type="submit"] {
     background: var(--main-color);
-    width: 30%;
-    color: var(--tertiary-color);
-    font-size: 14px;
-    font-weight: 600;
-    padding: 10px 15px;
-    cursor: pointer;
 }
