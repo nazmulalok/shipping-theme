@@ -587,105 +587,12 @@ button.owl-next span {
     border-radius: 5px;
 }
 
-.pricing-sec .common-box.bg-orange {
-    background: #FF7D44;
-    border-radius: 5px;
-}
-
 .pricing-sec .common-box>.content {
     text-align: center;
     color: var(--tertiary-color);
 }
 
-.pricing-title span {
-    display: block;
-}
-
 .pricing-title span:nth-child(1) {
     font-size: 16px;
     font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.pricing-title span:nth-child(2) {
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.pricing-title span:nth-child(3) {
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    background: #093F4D;
-    border-radius: 22px;
-    padding: 8px 5px;
-    margin-bottom: 40px;
-}
-
-.common-box.bg-orange .pricing-title span:nth-child(3) {
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    background: #DE5A21;
-    border-radius: 22px;
-    padding: 8px 5px;
-    margin-bottom: 40px;
-}
-
-ul.pricing-features {
-    list-style-type: none;
-}
-
-ul.pricing-features li {
-    font-size: 16px;
-    font-weight: 500;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid var(--tertiary-color);
-}
-
-ul.pricing-features li:last-child {
-    border: none;
-}
-
-.pricing-blue {
-    background: #093F4D;
-    height: 50px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top: 3px solid #ffffff75;
-}
-
-.pricing-orange {
-    background: #B98413;
-    height: 50px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top: 3px solid #ffffff75;
-}
-
-/* Form Section */
-
-.form-sec {
-    background-image: url(images/form-bg.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.form-sec:before {
-    content: '';
-    background: rgb(4 40 49 / 80%);
-    width: 50%;
-    height: 100%;
-    z-index: 50;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.form-sec .col-lg-6 {
-    z-index: 999999;
 }

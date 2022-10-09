@@ -685,7 +685,3 @@ ul.pricing-features li:last-child {
     top: 0;
     left: 0;
 }
-
-.form-sec .col-lg-6 {
-    z-index: 999999;
-}

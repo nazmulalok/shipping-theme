@@ -624,16 +624,6 @@ button.owl-next span {
     margin-bottom: 40px;
 }
 
-.common-box.bg-orange .pricing-title span:nth-child(3) {
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    background: #DE5A21;
-    border-radius: 22px;
-    padding: 8px 5px;
-    margin-bottom: 40px;
-}
-
 ul.pricing-features {
     list-style-type: none;
 }
@@ -650,7 +640,7 @@ ul.pricing-features li:last-child {
     border: none;
 }
 
-.pricing-blue {
+.pricing-footer.bg-blue {
     background: #093F4D;
     height: 50px;
     border-bottom-left-radius: 5px;
@@ -658,34 +648,10 @@ ul.pricing-features li:last-child {
     border-top: 3px solid #ffffff75;
 }
 
-.pricing-orange {
+.pricing-footer.bg-orange {
     background: #B98413;
     height: 50px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top: 3px solid #ffffff75;
-}
-
-/* Form Section */
-
-.form-sec {
-    background-image: url(images/form-bg.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.form-sec:before {
-    content: '';
-    background: rgb(4 40 49 / 80%);
-    width: 50%;
-    height: 100%;
-    z-index: 50;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.form-sec .col-lg-6 {
-    z-index: 999999;
 }

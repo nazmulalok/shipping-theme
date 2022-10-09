@@ -672,20 +672,4 @@ ul.pricing-features li:last-child {
     background-image: url(images/form-bg.png);
     background-size: cover;
     background-position: center;
-    position: relative;
-}
-
-.form-sec:before {
-    content: '';
-    background: rgb(4 40 49 / 80%);
-    width: 50%;
-    height: 100%;
-    z-index: 50;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.form-sec .col-lg-6 {
-    z-index: 999999;
 }
