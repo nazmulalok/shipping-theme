@@ -734,11 +734,6 @@ ul.pricing-features li:last-child {
     font-weight: 600;
 }
 
-.news-sec .common-box {
-    box-shadow: #64646436 0px 3px 15px;
-}
-
-.news-sec .common-box:hover .news-date p {
+.news-sec .common-box:hover {
     color: var(--tertiary-color);
-    transition: all 0.5s ease;
 }

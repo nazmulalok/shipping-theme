@@ -725,20 +725,4 @@ ul.pricing-features li:last-child {
     font-size: 42px;
     font-weight: 700;
     color: var(--main-color);
-    margin-bottom: 0px;
-}
-
-.news-sec .news-date p:last-child {
-    color: var(--main-color);
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.news-sec .common-box {
-    box-shadow: #64646436 0px 3px 15px;
-}
-
-.news-sec .common-box:hover .news-date p {
-    color: var(--tertiary-color);
-    transition: all 0.5s ease;
 }
