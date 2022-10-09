@@ -810,7 +810,3 @@ address i {
 .footer-bottom .copyright span {
     color: var(--main-color);
 }
-
-.copyright-links a {
-    color: #C5C5C5;
-}
