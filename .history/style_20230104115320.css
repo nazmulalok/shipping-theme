@@ -470,10 +470,6 @@ a.more-btn:after {
     transition: all 0.5s ease;
 }
 
-.why-choose-box .img-box img {
-    width: 40px;
-}
-
 .why-choose-box .common-box .box-title {
     color: var(--main-color);
     font-size: 22px;
